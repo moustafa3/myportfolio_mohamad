@@ -18,11 +18,19 @@ import {
   meta,
   starbucks,
   tesla,
+  caashpay,
+  aci,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  c,
+  cc,
+  java,
+  angular,
+  robot,
+  film,
 } from "../assets";
 
 export const navLinks = [
@@ -42,21 +50,18 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "ingénieur en Développement logiciel",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "ingénieur en Développement Fullstack",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "ingénieur en électronique",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+
 ];
 
 const technologies = [
@@ -80,14 +85,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+  
   {
     name: "Node JS",
     icon: nodejs,
@@ -97,74 +95,54 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "c",
+    icon: c,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "c++",
+    icon:  cc,
+  },
+  {
+    name: "java",
+    icon: java,
+  },
+  {
+    name: "angular",
+    icon: angular,
   },
 ];
 
 const experiences = [
+  
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Stage en Développement de Solutions de Paiement-DEV JAVA-Fullstack",
+    company_name: "CAASHPAY(Paris - France)",
+    icon: caashpay,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Septembre  2023 - Décembre  2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      " Apprentissage du métier de la monétique.",
+      "Développement d'une API de paiement CB2A en utilisant Java Kotlin, API RESTful, JSON, Ktor.",
+      "Garantie de la sécurité des données selon les normes ISO8583 et PCI DSS.",
+      "Création d'un serveur Python pour simulation bancaire.",
+      "Utilisation de MongoDB pour le stockage des données.",
+      "Conception d'une interface web avec Node.js/React pour la gestion sécurisée des données.",
+
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Stage en Développement d'Applications Mobiles",
+    company_name: " ACI International (Beirut-Liban)",
+    icon: aci,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Mai 2022 - Août 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conception et développement d'applications utilisant Flutter  pour faciliter la gestion administrative et des ressources humaines d'une entreprise sur les plateformes iOS et Android. ",
+      "Développement d'une application en Java permettant d'enregistrer les heures d'arrivée et de départ des employés au sein de l'entreprise.",
     ],
   },
 ];
@@ -198,68 +176,48 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: " Projet pluridisciplinaire (Enib)",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Projet vise à creer un robot controlable via une interface homme-machine (STM32 , Python).",
+    tags: [
+      {
+        name: "C++",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "stm32",
+        color: "green-text-gradient",
+      },
+      {
+        name: "python",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: robot,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Projet web (Fullstack)",
+    description:
+      "Développement d'une application de révision de film.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Java et Spring Boot",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: film,
     source_code_link: "https://github.com/",
   },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
