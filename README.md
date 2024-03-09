@@ -1,3 +1,4 @@
+<HEAD
 <div align="center">
   <br />
     <a href="https://youtu.be/0fYi8SGA20k?feature=shared" target="_blank">
@@ -787,7 +788,7 @@ And if you're hungry for more than just a course and want to understand how we l
 </a>
 
 #
-=======
+
 # myportfolio_mohamad
 react-portfolio
->>>>>>> 6767c4b1855ad5450e48f2ac6dbac78b4c8d2fef
+6767c4b1855ad5450e48f2ac6dbac78b4c8d2fef
